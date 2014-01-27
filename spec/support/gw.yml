@@ -1,0 +1,8 @@
+:firstdata:
+  :fields:
+    -
+      - input
+      - name
+    -
+      - input
+      - address

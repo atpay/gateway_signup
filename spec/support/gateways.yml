@@ -1,0 +1,149 @@
+:authorize_net:
+  :display_name: Authorize.Net
+  :country: US
+  :fields:
+
+:balanced:
+  :display_name: Balanced
+  :country: US
+  :fields:
+
+:bean_stream:
+  :display_name: BeanStream
+  :country: US
+  :fields:
+
+:blue_pay:
+  :display_name: BluePay
+  :country: US
+  :fields:
+
+:brain_tree:
+  :display_name: BrainTree
+  :country: US
+  :fields:
+
+:cyber_source:
+  :display_name: CyberSource
+  :country: US
+  :fields:
+
+:dwolla:
+  :display_name: Dwolla
+  :country: US
+  :fields:
+
+:elavon:
+  :display_name: Elavon
+  :country: US
+  :fields:
+
+:first_data_e4:
+  :display_name: First Data e4
+  :country: US
+  :fields:
+
+:first_data_global_gateway:
+  :display_name: First Data Global Gateway
+  :country: US
+  :fields:
+
+:jet_pay:
+  :display_name: JetPay
+  :country: US
+  :fields:
+
+:litle:
+  :display_name: Litle
+  :country: US
+  :fields:
+
+:merchant_e_solutions:
+  :display_name: Merchant e-Solutions
+  :country: US
+  :fields:
+
+:mercury:
+  :display_name: Mercury
+  :country: US
+  :fields:
+
+:net_billing:
+  :display_name: NETbilling
+  :country: US
+  :fields:
+
+:nmi:
+  :display_name: NMI
+  :country: US
+  :fields:
+
+:paymentech_orbital_gateway:
+  :display_name: Paymentech Orbital Gateway
+  :country: US
+  :fields:
+
+:payflow_pro:
+  :display_name: Payflow Pro
+  :country: US
+  :fields:
+
+:payment_express:
+  :display_name: Payment Express
+  :country: US
+  :fields:
+
+:pay_pal:
+  :display_name: PayPal
+  :country: US
+  :fields:
+
+:quick_books_merchant_services:
+  :display_name: QuickBooks Merchant Services
+  :country: US
+  :fields:
+
+:quantum:
+  :display_name: Quantum
+  :country: US
+  :fields:
+
+:sage_payment_solutions:
+  :display_name: Sage Payment Solutions
+  :country: US
+  :fields:
+
+:secure_net:
+  :display_name: SecureNet
+  :country: US
+  :fields:
+
+:stripe:
+  :display_name: Stripe
+  :country: US
+  :fields:
+
+:spreedly_test:
+  :display_name: Spreedly Test
+  :country: US
+  :fields:
+
+:trans_first:
+  :display_name: TransFirst
+  :country: US
+  :fields:
+
+:trust_commerce:
+  :display_name: TrustCommerce
+  :country: US
+  :fields:
+
+:usa_epay:
+  :display_name: USA ePay
+  :country: US
+  :fields:
+
+:world_pay:
+  :display_name: WorldPay
+  :country: US
+  :fields:
