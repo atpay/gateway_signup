@@ -19,5 +19,9 @@ module GatewaySignup
     def details(gateway)
       @config.details gateway
     end
+
+    def for_country(country)
+      @config.for_country country
+    end
   end
 end

@@ -18,6 +18,10 @@ module GatewaySignup
       def details(gateway)
         @gw_data[gateway.to_sym]
       end
+
+      def for_country(country)
+        gateways.select { |gw| @gw_data[gw][:countries].include? country }
+      end
     end
   end
 end
