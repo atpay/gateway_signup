@@ -1,10 +1,10 @@
 Gem::Specification.new do |s|
   s.name          = 'gateway_signup'
-  s.version       = '0.1.0'
-  s.date          = '2014-01-28'
+  s.version       = '0.1.1'
+  s.date          = '2014-01-29'
   s.summary       = "Spreedly Gateway Registration Field Lookup"
   s.description   = "Small library for reading a config and returning the fields required to register a specific gateway with Spreedly"
-  s.authors       = ["Glen Holcomb"]
+  s.authors       = ["Glen Holcomb", "Isaiah Baca"]
   s.email         = 'dev@atpay.com'
   s.files         = `git ls-files`.split($/)
   s.test_files    = s.files.grep(%r{^(test|spec|features)/})
