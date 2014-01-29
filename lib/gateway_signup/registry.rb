@@ -12,6 +12,10 @@ module GatewaySignup
       @config.gateways
     end
 
+    def gateway_list
+      @config.gateway_list
+    end
+
     def fields_for(gateway)
       @config.fields_for gateway
     end

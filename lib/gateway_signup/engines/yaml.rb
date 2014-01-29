@@ -1,6 +1,7 @@
 module GatewaySignup
   module Engines
     require 'yaml'
+    require 'pry'
 
     class Yaml
       def initialize(file)
@@ -8,11 +9,21 @@ module GatewaySignup
       end
 
       def fields_for(gateway)
-        @gw_data[gateway.to_sym][:fields]
+       @list = @gw_data[gateway.to_sym][:fields]
+       @list.each { |x| x << x[1].split("_").map(&:capitalize).join(" ") }
+       @list
       end
 
       def gateways
         @gw_data.keys
+      end
+
+      def gateway_list
+        @list = {}
+        @gw_data.each do |k, v|
+          @list[k] = v[:display_name] 
+        end
+        @list.to_json.html_safe
       end
 
       def details(gateway)
