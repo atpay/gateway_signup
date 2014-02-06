@@ -16,6 +16,10 @@ module GatewaySignup
       @config.gateway_list
     end
 
+    def countries
+      @config.countries
+    end
+
     def fields_for(gateway)
       @config.fields_for gateway
     end

@@ -18,10 +18,23 @@ module GatewaySignup
         @gw_data.keys
       end
 
-      def gateway_list
-        @list = {}
+      def countries
+        @count=[]
         @gw_data.each do |k, v|
-          @list[k] = v[:display_name] 
+          @count = @count + v[:countries]
+        end
+        @count = @count.uniq.sort
+        us = @count.index('US')
+        @count.delete_at(us)
+        @count = @count.unshift('US')
+        @count.to_json.html_safe
+      end
+
+      def gateway_list
+        @list = hash_tree
+        @gw_data.each do |k, v|
+          @list[k]["display"] = v[:display_name]
+          @list[k]["countries"] = v[:countries]
         end
         @list.to_json.html_safe
       end
@@ -33,6 +46,13 @@ module GatewaySignup
       def for_country(country)
         gateways.select { |gw| @gw_data[gw][:countries].include? country }
       end
+
+      def hash_tree
+        Hash.new do |hash, key|
+          hash[key] = hash_tree
+        end
+      end
+
     end
   end
 end
