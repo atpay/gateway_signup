@@ -10,7 +10,6 @@ module GatewaySignup
 
       def fields_for(gateway)
        @list = @gw_data[gateway.to_sym][:fields]
-       @list.each { |x| x << x[1].split("_").map(&:capitalize).join(" ") }
        @list
       end
 
