@@ -34,6 +34,7 @@ module GatewaySignup
         @gw_data.each do |k, v|
           @list[k]["display"] = v[:display_name]
           @list[k]["countries"] = v[:countries]
+          @list[k]["notes"] = v[:notes]
         end
         @list.to_json.html_safe
       end
