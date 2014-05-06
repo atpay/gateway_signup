@@ -1,7 +1,7 @@
 module GatewaySignup
   module Engines
     require 'yaml'
-    require 'pry'
+    #require 'pry'
 
     class Yaml
       def initialize(file)
