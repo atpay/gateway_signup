@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name          = 'gateway_signup'
-  s.version       = '0.1.3'
-  s.date          = '2014-01-29'
+  s.version       = '0.1.4'
+  s.date          = '2014-05-08'
   s.summary       = "Spreedly Gateway Registration Field Lookup"
   s.description   = "Small library for reading a config and returning the fields required to register a specific gateway with Spreedly"
   s.authors       = ["Glen Holcomb", "Isaiah Baca"]
