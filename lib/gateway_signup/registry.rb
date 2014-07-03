@@ -4,10 +4,6 @@ module GatewaySignup
       @config = ConfigEngine.source args[:format], args[:location]
     end
 
-    def setup_sqlite(force)
-      @config.setup_db force
-    end
-
     def gateways
       @config.gateways
     end
